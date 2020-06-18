@@ -52,12 +52,12 @@ steamPage:
 
         [b]Características planeadas & sugerencias de la comunidad[/b]
 
-        Este juego es de código abierto - Cualquiera puede contribuir! A parte de eso, escucho [b]mucho[/b] a la comunidad! Intento leer todas las sugerencias e intento tener en cuenta todo el foodback posible.
+        Este juego es de código abierto - Cualquiera puede contribuir! A parte de eso, escucho [b]mucho[/b] a la comunidad! Intento leer todas las sugerencias e intento tener en cuenta todo el feedback posible.
         [list]
             [*] Modo historia en el que los edificios cuesten figuras
             [*] Más niveles y edificios (exclusivos del juego completo)
             [*] Mapas diferentes y tal vez obstáculos en el mapa
-            [*] Configuración en la cración del mapa (Editar el número y tamaño de los recursos, la semilla, y más)
+            [*] Configuración en la creación del mapa (Editar el número y tamaño de los recursos, la semilla, y más)
             [*] Más tipos de formas
             [*] Mejoras de rendimiento (Aunque el juego ya funciona muy bien!)
             [*] Modo para daltónicos
@@ -210,7 +210,7 @@ dialogs:
 
     keybindingsResetOk:
         title: Reseteo de los atajos de teclado
-        desc: ¡Los atajos de taclado han sito reseteados a los valores por defecto!
+        desc: ¡Los atajos de teclado han sido reseteados a los valores por defecto!
 
     featureRestriction:
         title: Versión de Prueba
@@ -218,7 +218,7 @@ dialogs:
 
     oneSavegameLimit:
         title: partidas guardadas limitadas
-        desc: Solo puedes tener una partida guardada a la vez en la versión de prueba. ¡Por favor elimina la ya existente o obtén el juego completo!
+        desc: Sólo puedes tener una partida guardada a la vez en la versión de prueba. ¡Por favor elimina la ya existente o obtén el juego completo!
     updateSummary:
         title: ¡Nueva actualización!
         desc: >-
@@ -256,7 +256,7 @@ dialogs:
 
     createMarker:
         title: Nuevo marcador
-        desc: Dale un nombre significativo, tambien puedes agregarle la <strong>clave</strong> de una forma (La cual puedes generar <a href="https://viewer.shapez.io" target="_blank">aquí</a>)
+        desc: Dale un nombre significativo, también puedes agregarle la <strong>clave</strong> de una forma (La cual puedes generar <a href="https://viewer.shapez.io" target="_blank">aquí</a>)
 
     markerDemoLimit:
         desc: Sólo puedes crear dos marcadores en la versión de prueba. ¡Obtén el juego completo para marcas ilimitadas!
@@ -282,9 +282,9 @@ ingame:
         placeBuilding: Colocar edificio
         createMarker: Crear marca
         delete: Destruir
-        pasteLastBlueprint: Paste last blueprint
-        lockBeltDirection: Enable belt planner
-        plannerSwitchSide: Flip planner side
+        pasteLastBlueprint: Pegar la última plantilla
+        lockBeltDirection: Habilitar el planeador de cintas
+        plannerSwitchSide: Voltear el lado del planificador
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
@@ -450,7 +450,7 @@ buildings:
     cutter:
         default:
             name: &cutter Cortador
-            description: Corta las figuras de arriba a abajo y saca ambas mitades. <strong> ¡Si solo usas una parte, asegúrate de destruir la otra parte o se parará!</strong>
+            description: Corta las figuras de arriba a abajo y saca ambas mitades. <strong> ¡Si sólo usas una parte, asegúrate de destruir la otra parte o se parará!</strong>
         quad:
             name: Cortador (Cuádruple)
             description: Corta figuras en cuatro partes. <strong> ¡Si solo usas una parte, asegúrate de destruir las otras partes o se parará!</strong>
@@ -482,7 +482,7 @@ buildings:
             description: *painter_desc
         double:
             name: Pintor (Doble)
-            description: Colorea las figuras que entran por la izquierda con el color que entrapor arriba.
+            description: Colorea las figuras que entran por la izquierda con el color que entra por arriba.
         quad:
             name: Pintor (Cuádruple)
             description: Permite colorear cada cuadrante de una figura con un color distinto.
@@ -494,7 +494,7 @@ buildings:
 
         storage:
             name: Almacenamiento.
-            description: Guarda el exceso de elementos, hasta cierta cantidad. Puede ser usado para contolar el desborde de elementos.
+            description: Guarda el exceso de elementos, hasta cierta cantidad. Puede ser usado para controlar el desbordamiento de elementos.
 
     hub:
         deliver: Envía
@@ -541,7 +541,7 @@ storyRewards:
 
     reward_underground_belt_tier_2:
         title: Tunel de Nivel II
-        desc: Has desbloqueado una nueva variante del <strong>tunel</strong> - ¡Tiene un <strong>mayor rango</strong>, ahora puedes mezclar los distintos tipos de túneles!
+        desc: Has desbloqueado una nueva variante del <strong>túnel</strong> - ¡Tiene un <strong>mayor rango</strong>, ahora puedes mezclar los distintos tipos de túneles!
 
     reward_splitter_compact:
         title: Balanceador Compacto
@@ -549,11 +549,11 @@ storyRewards:
             Has desbloqueado una variante compacta del <strong>balanceador</strong> - ¡Acepta dos entradas y las junta en una salida!
     reward_cutter_quad:
         title: Cortador Cuádruple
-        desc: Has desbloqueado una variante del <strong>cortador</strong> - ¡Permite cortar figuras en <strong>cuatro partes</strong> en vez de solo dos!
+        desc: Has desbloqueado una variante del <strong>cortador</strong> - ¡Permite cortar figuras en <strong>cuatro partes</strong> en vez de sólo dos!
 
     reward_painter_double:
         title: Doble Pintor
-        desc: Has desbloqueado una variante del <strong>pintor</strong> - ¡Funciona como un pintor regular pero procesa <strong>dos formas a la vez</strong> consumiendo solo un color en vez de dos!
+        desc: Has desbloqueado una variante del <strong>pintor</strong> - ¡Funciona como un pintor regular pero procesa <strong>dos formas a la vez</strong> consumiendo sólo un color en vez de dos!
 
     reward_painter_quad:
         title: Cuádruple Pintor
@@ -608,7 +608,7 @@ settings:
         scrollWheelSensitivity:
             title: Sensitividad del zoom
             description: >-
-                Cambia como de sensible es el zoom (Tanto la ruedo del ratón como el trackpad)
+                Cambia como de sensible es el zoom (Tanto la rueda del ratón como el trackpad)
             sensitivity:
                 super_slow: Muy Lento
                 slow: Lento
@@ -618,7 +618,7 @@ settings:
 
         movementSpeed:
             title: Velocidad de movimiento
-            description: Cambia que tan rapido se mueve la camara al usar el teclado.
+            description: Cambia que tan rápido se mueve la cámara al usar el teclado.
             speeds:
                 super_slow: Super lento
                 slow: Lento
@@ -634,7 +634,7 @@ settings:
         fullscreen:
             title: Pantalla Completa
             description: >-
-                Es recomendado jugar en pantalla completa para conseguir la mejor experiencia. Solo disponible en el juego completo.
+                Es recomendado jugar en pantalla completa para conseguir la mejor experiencia. Sólo disponible en el juego completo.
         soundsMuted:
             title: Silenciar Sonidos
             description: >-
@@ -672,13 +672,12 @@ settings:
         enableTunnelSmartplace:
             title: Túneles Inteligentes
             description: >-
-                Si está activado, colocar túneles automáticamente removerá las cintas transportadoras innecesarias. Esto también permite arrastrar con el ratón y los túneles excedentes serán removidos.
+                Si está activado, colocar túneles automáticamente eliminará las cintas transportadoras innecesarias. Esto también permite arrastrar con el ratón y los túneles excedentes serán eliminados.
 
         vignette:
-            title: Vignette
+            title: Viñeta
             description: >-
-                Enables the vignette which darkens the screen corners and makes text easier
-                to read.
+                Habilita la viñeta que oscurece las esquinas de la pantalla y facilita la lectura del texto.
 
 keybindings:
     title: Atajos de Teclado
